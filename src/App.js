@@ -2,10 +2,12 @@ import React from "react";
 
 import GlobalStyle from "./styles/global";
 
+import Sidebar from "./components/Sidebar/index.jsx";
+
 function App() {
   return (
     <>
-      <div>Hello world</div>
+      <Sidebar />
       <GlobalStyle />
     </>
   );

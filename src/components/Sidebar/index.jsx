@@ -47,12 +47,12 @@ const Sidebar = () => (
           <a href="">Podcasts</a>
         </li>
       </Nav>
-      <Nav main>
+      <Nav>
         <li>
           <span>PLAYLISTS</span>
         </li>
         <li>
-          <a href="">Melores do ock</a>
+          <a href="">Melores do rock</a>
         </li>
       </Nav>
     </div>

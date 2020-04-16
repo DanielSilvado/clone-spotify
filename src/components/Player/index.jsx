@@ -10,13 +10,13 @@ import {
   ProgressSlider,
 } from "./styles";
 
-import VolumeIcon from "../../assets/assets/images/volume.svg";
-import ShuffleIcon from "../../assets/assets/images/shuffle.svg";
-import BackwardIcon from "../../assets/assets/images/backward.svg";
-import PlayIcon from "../../assets/assets/images/play.svg";
-// import PauseIcon from "../../assets/assets/images/pause.svg";
-import ForwardIcon from "../../assets/assets/images/forward.svg";
-import RepeatIcon from "../../assets/assets/images/repeat.svg";
+import VolumeIcon from "../../assets/images/volume.svg";
+import ShuffleIcon from "../../assets/images/shuffle.svg";
+import BackwardIcon from "../../assets/images/backward.svg";
+import PlayIcon from "../../assets/images/play.svg";
+// import PauseIcon from "../../assets/images/pause.svg";
+import ForwardIcon from "../../assets/images/forward.svg";
+import RepeatIcon from "../../assets/images/repeat.svg";
 
 const Player = () => (
   <Container>

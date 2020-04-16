@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import SearchIcon from '../../assets/assets/images/search.svg';
+import SearchIcon from '../../assets/images/search.svg';
 
 export const Container = styled.header`
     display: flex;

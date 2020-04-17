@@ -1,15 +1,16 @@
 import React from "react";
-import { BrowserRouter } from 'react-router-dom';
+
+import {BrowserRouter} from 'react-router-dom'
 
 import GlobalStyle from "./styles/global";
 
-import Sidebar from "./components/Sidebar/index.jsx";
-import Player from "./components/Player/index.jsx";
-import Header from "./components/Header/index.jsx";
+import Sidebar from "./components/Sidebar";
+import Player from "./components/Player";
+import Header from "./components/Header";
 
 import { Wrapper, Container, Content } from "./styles/components";
 
-import Routes from './routes';
+import Routes from './routes/index';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Sidebar />
           <Content>
             <Header />
-            <Routes/>
+            <Routes />
           </Content>
         </Container>
         <Player />

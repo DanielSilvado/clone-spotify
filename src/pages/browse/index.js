@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
 
 import { Container, Title, Playlist, List } from './styles';
 
@@ -10,7 +9,6 @@ const Browse = () => (
         </Title>
 
         <List>
-            <Link to="/playlists/1">Teste</Link>
             <Playlist to="/playlists/1">
                 <img src="https://studiosol-a.akamaihd.net/letras/272x272/albuns/e/a/c/3/782891568926534.jpg" alt="Playlist" />
                 <strong>Gospel</strong>
